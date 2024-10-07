@@ -15,7 +15,7 @@ public class CMDRunSimpleTest {
         driver.manage().window().maximize();
     }
     void test(){
-        driver.get("http://samsung.com/uk");
+        driver.get("http://samsung.com/uk/");
         driver.findElement(By.id("truste-consent-button")).click();
     }
         @Test
